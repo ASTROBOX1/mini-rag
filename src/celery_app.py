@@ -26,7 +26,7 @@ async def get_setup_utils():
     generation_client = llm_provider_factory.create(provider=settings.GENERATION_BACKEND)
     generation_client.set_generation_model(model_id = settings.GENERATION_MODEL_ID)
 
-    # embedding client
+    # embedding clienthttps://www.facebook.com/share/p/17xFk52RYv/
     embedding_client = llm_provider_factory.create(provider=settings.EMBEDDING_BACKEND)
     embedding_client.set_embedding_model(model_id=settings.EMBEDDING_MODEL_ID,
                                              embedding_size=settings.EMBEDDING_MODEL_SIZE)
